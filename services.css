@@ -1,0 +1,54 @@
+.services{
+    display: flex;
+    justify-content: space-evenly;
+color: white;
+text-align: center;
+overflow: hidden;
+align-items: center;
+gap: 20px;
+height: max-content;
+color: black;
+
+}
+
+@media (max-width:966px) {
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:425px) {
+    .services-hd-h3{
+       margin-top: 30px;
+    }
+}
+.sr1 img{
+height: 70px;
+
+}
+.sr1{
+    padding: 20px;
+    border: 3px solid red;
+    border-radius: 20px;
+    transition: 1s;
+height: 300px;
+width: 250px;
+cursor: pointer;
+background-color: azure;
+}
+.sr1 h3{
+    padding: 10px 0px 10px 0px;
+}
+.sr1 p{
+    padding: 5px 0px 5px 0px;
+}
+.sr1:hover{
+    background-color: red;
+
+}
+.services-hd-h3{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}

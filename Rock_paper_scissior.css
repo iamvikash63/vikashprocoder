@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+.title{
+    font-size: 50px;
+    padding: 20px;
+}
+.Move{
+    height: 70px;
+   
+   
+}
+.button-move{
+    background-color: transparent;
+    border-radius: 60%;
+    border: 3px solid white;
+   height: 130px;
+   width: 130px;
+ margin-right: 10px;
+    cursor: pointer;
+   
+   
+}
+.result{
+font-size: 30px;
+font-weight: 600;
+}
+.js-score{
+    font-size: larger;
+    padding: 10px;
+}
+.reset-button{
+    border: none;
+    font-size: larger;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+}

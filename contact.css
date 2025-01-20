@@ -1,0 +1,70 @@
+.get-in-touch{
+    display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: max-content;
+            
+}
+
+.contact-form {
+    background: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-height: 600px;
+    width: 60%;
+}
+.contact-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ff0000;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ff0000;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+  
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+}
+.form-group input:focus, .form-group textarea:focus {
+    outline: none;
+    border-color: #ff0000;
+}
+.form-group .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background-color: #ff0000;
+}
+
+.get-in-touch img{
+    height: 300px;
+  
+}
+
+@media (max-width:972px) {
+    .get-in-touch{
+
+    display: flex;
+    flex-direction: column;
+    }
+}

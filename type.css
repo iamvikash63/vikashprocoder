@@ -1,0 +1,20 @@
+
+  #typewriter{
+    color: red;
+  font-size: 30px;
+    font-weight: 600;
+  }
+  .cursor {
+    display: inline-block;
+    margin-left: 5px;
+    animation: blink 0.7s steps(2, start) ease-out;
+    color: red;
+    font-size: 30px;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
