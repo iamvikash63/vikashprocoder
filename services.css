@@ -23,18 +23,20 @@ color: black;
     }
 }
 .sr1 img{
-height: 70px;
+height: 100px;
 
 }
 .sr1{
     padding: 20px;
     border: 3px solid red;
-    border-radius: 20px;
+    border-radius: 10%;
     transition: 1s;
-height: 300px;
+height: 200px;
 width: 250px;
 cursor: pointer;
 background-color: azure;
+
+
 }
 .sr1 h3{
     padding: 10px 0px 10px 0px;
