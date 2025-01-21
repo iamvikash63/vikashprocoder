@@ -349,9 +349,9 @@ height: 30px;
 }
 
 .project-card {
-  background: #fff;
+  background: azure;
   border-radius: 8px;
-  box-shadow: 3px 4px 6px red;
+  box-shadow: 3px 4px 6px rgb(228, 120, 120);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
