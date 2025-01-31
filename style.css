@@ -1,7 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
-    font-family: "Playwrite AU SA", serif;;
+    font-family: "Playwrite AU SA", serif;
     text-decoration: none;
 }
 body{
@@ -19,6 +19,8 @@ body{
     overflow: hidden;
     padding: 0px 20px 0px 20px;
     font-weight: 600;
+    
+    
 }
 .logo{
     font-size: x-large;
@@ -429,7 +431,7 @@ color: white;
 }
 
 .container-testm{
-  max-height: 500px;
+  min-height: min-content;
   display: flex;
   overflow: hidden;
   align-items: center;
@@ -469,7 +471,8 @@ padding: 30px 30px 30px 30px;
 
 @media (max-width: 560px) {
   .container-testm{
-    overflow:auto;
+   
+    
     gap: 10px;
     padding: 10px;
     flex-direction: column;
