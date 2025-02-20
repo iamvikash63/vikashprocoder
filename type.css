@@ -1,6 +1,6 @@
 
   #typewriter{
-    color: red;
+    color: rgb(255, 255, 255);
   font-size: 30px;
     font-weight: 600;
   }
@@ -8,7 +8,7 @@
     display: inline-block;
     margin-left: 5px;
     animation: blink 0.7s steps(2, start) ease-out;
-    color: red;
+    color: rgb(255, 255, 255);
     font-size: 30px;
   }
   

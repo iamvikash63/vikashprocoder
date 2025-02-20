@@ -1,9 +1,12 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .portfolio {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     overflow: hidden;
-    font-family: "Playwrite AU SA";
+   
   }
   
   .portfolio h1 {
