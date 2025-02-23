@@ -6,14 +6,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #a9d6ed;
+    background-color: #9be4bb;
 
 
 }
 
 .nav-bar{
     height: 80px;
-background-color: #B3A9ED;
+background-color: #fff2fc;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,10 +26,10 @@ background-color: #B3A9ED;
 }
 
 .logo a{
-  color: yellow;
+  color: #584229;
   font-weight: 800; 
   font-size: 2rem;
- text-shadow: 1px 2px 5px  #000000;
+ text-shadow: 1px 2px 5px  #ffffff;
 }
 
 .Nav-sec{
@@ -67,7 +67,7 @@ font-weight: 600;
 .main{
     height: 580px;
   color: white;
-   background-image: url(hero\ img.png);
+   background-color: #916ca1;
     overflow: hidden;
     display: flex;
     justify-content: space-evenly;
@@ -213,8 +213,8 @@ box-shadow: 2px 3px 10px black;
   padding: 10px;
   color: white;
   border-radius: 15px;
-  background-color: #007afd;
-  box-shadow: 2px 3px 10px black;
+  background-color: #584229;
+  box-shadow: 2px 3px 10px rgb(255, 255, 255);
 }
 
 .portfolio {
@@ -242,7 +242,7 @@ box-shadow: 2px 3px 10px black;
 .project-card {
 border: 1px solid gray;
   border-radius: 8px;
-background-color: #fff0b8;
+background-color: #fff2fc;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -339,6 +339,19 @@ color: #E04826;
 
 
 }
+@media (max-width:542px) {
+  .reviewscn p{
+    width: 100px;
+  }
+  .reviewscn{
+    width: 100%;
+  }
+  .main_reviews_slide{
+    width: 100%;
+  }
+}
+
+
 .reviewscn p{
   max-width: 500px;
 }
