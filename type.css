@@ -1,8 +1,12 @@
 
   #typewriter{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   font-size: 30px;
     font-weight: 600;
+    font-size: larger;
+  background-color: #f8313e;
+  padding: 10px;
+  border-radius: 15px;
   }
   .cursor {
     display: inline-block;

@@ -1,5 +1,9 @@
 const textArray = [
-    "Frontend Developer!",
+    "Frontend Engineer!",
+    "Javasript,Java,C,C++,",
+    "React",
+    "HTML, CSS",
+    "Open To Work!",
     "Let's Collaborate.",
   ];
   const typingSpeed = 100; // Milliseconds per character
