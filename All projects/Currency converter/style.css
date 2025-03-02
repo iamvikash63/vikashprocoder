@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+height: 100vh;
+background-color: antiquewhite;
+   
+}
+
+.dropdown-container{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+padding: 30px;
+}
+.flag-img{
+    height: 50px;
+    border: none;
+}
+.country-sl{
+    height: 50px;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    outline: none;
+}
+
+.slection{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    border: 1px solid rgb(145, 145, 145);
+    border-radius: 15px;
+    padding: 2px;
+}
+.from p,.TO p{
+    text-align: center;
+    padding: 5px;
+    
+}
+.cr-converter-container{
+    height: 400px;
+    width: 500px;
+    background-color: rgb(255, 219, 164);
+    padding: 30px;
+    border-radius: 15px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 10px;
+}
+.switch-icon{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.amount-div{
+    margin-top: 20px;
+}
+form button{
+    background-color: rgb(123, 60, 182);
+    color: white;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+}
+.message{
+    margin: 2rem 0 2rem 0 ;
+}

@@ -13,7 +13,7 @@ body{
 
 .nav-bar{
     height: 80px;
-background-color: #FF8F57;
+background-color: #ffdfcf;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -242,6 +242,11 @@ border-radius: 20px;
 box-shadow: 2px 3px 10px black;
 
 
+}
+@media (max-width:439px) {
+  .contact-div a{
+    font-size: small;
+  }
 }
 @media (max-width: 948px) {
   .services{
