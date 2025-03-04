@@ -1,0 +1,61 @@
+@media (min-width:768px) {
+    .menu i{
+      display: none;
+    }
+   }
+
+  @media (max-width: 884px) {
+    .main {
+      flex-direction: column;
+      min-height: max-content;
+  
+    }
+  }
+  @media (max-width: 485px) {
+    .main {
+      flex-direction: column;
+      max-height: max-content;
+  
+    }
+  }
+  @media (max-width: 465px) {
+    .main2 img{
+      width: 100%;
+      height: auto;
+    }
+    .hire-header{
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    .social{
+      height: 100px;
+      margin-top: 50%;
+      font-size: small;
+    }
+    .CV{
+      font-size: small;
+      padding: 10px;
+    }
+  }
+
+
+ 
+  @media (max-width: 831px) {
+    .sec {
+     
+    display: none;
+  
+    }
+  }
+ /* nav cv download display non */
+ @media (max-width:371px) {
+    .CV{
+        display: none;
+    }
+    .social{
+        min-height: 80px;
+        margin-top: 40%;
+      font-size: 5px;
+    }
+ }
