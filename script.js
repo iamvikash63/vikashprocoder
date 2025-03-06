@@ -37,5 +37,19 @@ if(index===testimonials.length){
 
 }
 
+const header = document.querySelector('.main');
+const glowCircle = document.getElementById('glow-circle');
 
+header.addEventListener('mousemove', (event) => {
+    const rect = header.getBoundingClientRect();
+    const x = event.clientX - rect.left;
+    const y = event.clientY - rect.top;
+
+    glowCircle.style.opacity = '1';
+    glowCircle.style.transform = `translate(${x}px, ${y}px)`;
+});
+
+header.addEventListener('mouseleave', () => {
+    glowCircle.style.opacity = '0';
+});
 

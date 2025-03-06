@@ -53,9 +53,30 @@
     .CV{
         display: none;
     }
-    .social{
-        min-height: 80px;
-        margin-top: 40%;
-      font-size: 5px;
+    .social-icon{
+        
+      font-size: 12px;
     }
  }
+
+ /* bottom contact */
+ @media (max-width:439px) {
+  .contact-div a{
+    font-size: small;
+  }
+}
+@media (max-width: 948px) {
+  .services{
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+
+@media (max-width:425px) {
+  .project-grid{
+
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));  
+
+} 
+}

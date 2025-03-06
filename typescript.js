@@ -1,8 +1,6 @@
 const textArray = [
+  "i'm vikash Pal",
     "Frontend Engineer!",
-    "Javasript,Java,C,C++,",
-    "React",
-    "HTML, CSS",
     "Open To Work!",
     "Let's Collaborate.",
   ];
