@@ -107,7 +107,7 @@ font-family: "Rowdies", serif;
   font-size: larger;
   color: white;
   background-color:#5271FF;
-margin-left: 10px;
+/* margin-left: 10px; */
 border-radius: 10px;
 font-size: larger;
 font-weight: 600;
@@ -129,12 +129,16 @@ box-shadow: 2px 3px 10px black;
   justify-content: space-evenly;
 }
 
-
+.social-icon-margin{
+  
+  margin-left: 20px;
+}
 .social-icon{
   padding: 10px;
   font-size: 1.5rem;
   margin-top: 20px;
-  margin-left: 20px;
+
+  /* margin-left: 20px; */
 background-color: #FF2F3D;
 border-radius: 50%;
 color: white;
