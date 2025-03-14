@@ -53,3 +53,35 @@ header.addEventListener('mouseleave', () => {
     glowCircle.style.opacity = '0';
 });
 
+
+
+// Scrolling Effects 
+const Scrollelm=document.querySelector('.js-contact-me');
+Scrollelm.addEventListener('click',(event)=>{
+event.preventDefault();
+const Targetatr= event.currentTarget.getAttribute('href').substring(1);
+const TargetSection = document.getElementById(Targetatr);
+if (TargetSection) {
+  window.scrollTo({
+      top: TargetSection.offsetTop -100, // Adjust offset for better alignment
+      behavior: 'smooth'
+  });
+}
+});
+
+//for nav bar scrolling jump to section
+document.querySelectorAll('.Nav-sec a').forEach(anchor => {
+  anchor.addEventListener('click', function(event) {
+      event.preventDefault(); // Prevent default anchor behavior
+
+      const targetId = this.getAttribute('href').substring(1);
+      const targetSection = document.getElementById(targetId);
+
+      if (targetSection) {
+          window.scrollTo({
+              top: targetSection.offsetTop - 50, // Adjust offset for better alignment
+              behavior: 'smooth'
+          });
+      }
+  });
+});
