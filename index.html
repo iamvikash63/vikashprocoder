@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>vikashprocoder</title>
 </head>
 
@@ -22,10 +23,11 @@
             <div class="nav-a-container">
             <a href="" class="nav-a active-color">Home</a>
 
-            <a href="" class="nav-a">Services</a>
-            <a href="" class="nav-a">About</a>
-            <a href="" class="nav-a">Projects</a>
+            <a href="#services" class="nav-a">Services</a>
+            <a href="#about" class="nav-a">About</a>
+            <a href="#portfolio" class="nav-a">Projects</a>
             <a href="" class="nav-a">Blogs</a>
+            <a href="" class="nav-a">Testemonials</a>
         </div>
 
         <div class="nav-contact-div">
@@ -36,10 +38,10 @@
     </div>
 
     <!-- main header  -->
-    <div class="main-header">
+    <div class="main-header fade-in">
         <div class="header-content">
             <h2 class="header-content-heading-top">Hello, there!</h2>
-            <h1 class="header-content-heading">I'm <span class="Services-span">Vikash Pal,</span>
+            <h1 class="header-content-heading fade-in">I'm <span class="Services-span">Vikash Pal,</span>
                 Frontend Web Developer.
             </h1>
             <!-- <h1 class="header-content-heading">Frontend Web Developer.</h1> -->
@@ -66,7 +68,7 @@
 
     </div>
     <!--Services Box -->
-    <div class="services-container">
+    <div class="services-container" id="services">
         <h2 class="Services-main-hd"><span class="Services-span">-</span>Services</h2>
         <div class="Services-heading">
             <h1><span class="Services-span">Services</span> I Provides</h1>
@@ -84,7 +86,7 @@
                 </div>
                 <h3>Website Development</h3>
                 <p>I provide web development services, creating responsive and user-friendly websites tailored to client needs. With a focus on clean design and efficient functionality, I aim to deliver impactful web solutions that enhance user experience and drive success.</p>
-                <a href="">Learn more &rarr;</a>
+                <p class="serices-more"><a href="">Learn more &rarr;</a></p>
             </div>
 
             <div class="Services-div1">
@@ -93,7 +95,7 @@
                 </div>
                 <h3>UI&UX Design</h3>
                 <p>I specialize in crafting intuitive and visually appealing user interfaces (UI) and enhancing user experiences (UX). By focusing on usability, aesthetics, and user needs, I design solutions that are seamless, engaging, and functional.</p>
-                <a href="">Learn more &rarr;</a>
+                <p class="serices-more"><a href="">Learn more &rarr;</a></p>
             </div>
 
             <div class="Services-div1">
@@ -102,13 +104,13 @@
                 </div>
                 <h3>App Development </h3>
                 <p>I offer app development services, creating dynamic, responsive, and feature-rich applications tailored to client requirements. From concept to deployment, I ensure robust functionality and a smooth user experience across platforms. </p>
-                <a href="">Learn more &rarr;</a>
+                <p class="serices-more"><a href="">Learn more &rarr;</a></p>
             </div>
         </div>
     </div>
 
     <!--about me section-->
-    <div class="about-me-container">
+    <div class="about-me-container" id="about">
 
         <div class="about-me-content">
             <h3><span class="about-span">-</span>About Me</h3>
@@ -139,7 +141,7 @@
 
 
     <!--Skills-->
-    <div class="skills-cotainer">
+    <div class="skills-cotainer" id="skill">
         <h3><span class="about-span">--</span>My Skills</h3>
         <h1>there is <span class="about-span"> perfection rate</span></h1>
         <div class="skill-content">
@@ -174,6 +176,90 @@
         </div>
     </div>
 
+
+    <!--my porfolio section-->
+    <div class="portfolio-section" id="portfolio">
+        <h2 class="Services-main-hd"><span class="Services-span">-</span>My Portfolio</h2>
+        <div class="Services-heading">
+            <h1> My<span class="Services-span">Latest Projcts</span> </h1>
+            <div class="btn">
+                <button>View All Projects</button>
+                <div class="circle price-circle">&rarr;</div>
+            </div>
+        </div>
+
+        <div class="portfolio-project-container">
+            <div class="projects">
+                <div class="projec-img">
+                    <img src="projects img/codeageing projects img.jpg" alt="">
+                </div>
+                <div class="project-tag">
+                    <p>Web Design</p>
+                    <p>Web Design</p>
+                    <p>Web Design</p>
+                </div>
+                <div class="project-heading">
+                 <h3>Web Solution Website - Codeageing I.T Serivces</h3>
+                    <div class="projects-link"><a href="">&rarr;</a></div>
+                </div>
+            </div>
+
+            <div class="projects">
+                <div class="projec-img">
+                    <img src="projects img/rock paper img.png" alt="">
+                </div>
+                <div class="project-tag">
+                    <p>Web Design</p>
+                    <p>Web Design</p>
+                    <p>Web Design</p>
+                </div>
+                <div class="project-heading">
+                    <h3>Web Solution Website - Codeageing I.T Serivces</h3>
+                    <div class="projects-link"><a href="">&rarr;</a></div>
+                </div>
+            </div>
+
+           
+         
+
+        </div>
+
+        <div class="portfolio-project-container">
+            <div class="projects">
+                <div class="projec-img">
+                    <img src="projects img/rock paper img.png" alt="">
+                </div>
+                <div class="project-tag">
+                    <p>Web Design</p>
+                    <p>Web Design</p>
+                    <p>Web Design</p>
+                </div>
+                <div class="project-heading">
+                 <h3>Web Solution Website - Codeageing I.T Serivces</h3>
+                    <div class="projects-link"><a href="">&rarr;</a></div>
+                </div>
+            </div>
+
+            <div class="projects">
+                <div class="projec-img">
+                    <img src="projects img/codeageing projects img.jpg" alt="">
+                </div>
+                <div class="project-tag">
+                    <p>Web Design</p>
+                    <p>Web Design</p>
+                    <p>Web Design</p>
+                </div>
+                <div class="project-heading">
+                    <h3>Web Solution Website - Codeageing I.T Serivces</h3>
+                    <div class="projects-link"><a href="">&rarr;</a></div>
+                </div>
+            </div>
+
+           
+         
+
+        </div>
+    </div>
 
 
     <!--Education-->
@@ -308,9 +394,7 @@
         <div class="contact-content">
             <h3 class="form-title"><span class="about-span">--</span>Contact Us:</h3>
             <h1>Let's Talk for <span class="about-span">Your Next Projects</span></h1>
-            <p class="contact-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit facilis accusamus blanditiis delectus
-                deserunt velit consequuntur repellat porro dignissimos ut corporis rem error ab sapiente autem, modi
-                nobis consequatur.</p>
+            <p class="contact-p">My team and I specialize in creating innovative and user-friendly web development solutions tailored to meet unique business needs. Whether you're looking to revamp your current website or build a powerful new platform from scratch, we're here to ensure a seamless and impactful online presence. I'd love to discuss how we can bring your ideas to life—let me know a convenient time to connect!</p>
                 <div class="contact-section">
             <img src="image/phone.png" alt="" class="contact-img">
             <h3 class="form-title">+919235648119</h3>
@@ -383,12 +467,93 @@
         </div>
         
     </div>
-    
 
+
+    <div class="reviews-slider">
+        <h1>What Customers Says About Codeageing</h1>
+        <div class="main_reviews_slide">
+            <i class="fa-solid fa-angles-left " onclick="
+            updateTest()
+             "></i>
+            <div class="reviewscn">
+                <img class="Test-img"
+                    src="https://images.unsplash.com/photo-1628157588553-5eeea00af15c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80"
+                    alt="">
+                <p class="Test-descp">I needed a professional website for my business, and Codeageing delivered beyond
+                    my expectations. The design is sleek, user-friendly, and fully responsive. Highly recommended!</p>
+                <p class="test-name">Constantine V</p>
+
+            </div>
+            <i class="fa-solid fa-angles-right" onclick="updateTest()"></i>
+        </div>
+
+
+    </div>
+
+    
+    <!-- faq-bottom-banner -->
+    <div class="header-banner">
+
+    </div>
+
+    <!-- footer link section -->
+<div class="footer-link-sec">
+    <div class="Services-heading ft-link-border">
+        <h1>Let's<span class="footer-link-span">Connect</span>there</h1>
+        <div class="btn">
+            <button>Visit My Portfolio</button>
+            <div class="circle price-circle">&rarr;</div>
+        </div>
+    </div>
+<div class="ft-container">
+
+<div class="ft-bio">
+    <div class="name">
+        <div class="logo">V</div>
+        vikashprocoder
+    </div>
+    <p class="footer-bio-p">We understand how crucial a strong online presence is for businesses today. Our team excels in delivering custom web development solutions that not only meet your goals but also create a lasting impression on your audience. From responsive design to cutting-edge functionality, we’re here to help you stand out in the digital landscape. Let’s explore how we can elevate your business together!</p>
+    <div class="ft-social-link">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-square-x-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-square-whatsapp"></i>
+    </div>
+</div>
+<div class="ft-link">
+<div class="ft-nav">
+    <div class="ft-nav"><h4 class="footer-link-span">Navigation</h4></div><div class="ft-nav"><h4 class="footer-link-span">Contact</h4></div>   </div>
+<div class="ft-nav">
+    <div class="ft-nav"><h5>Home</h4>  </div>   <div class="ft-nav"><h5>+919235648119</h5></div>   </div>
+<div class="ft-nav">
+    <div class="ft-nav"><h5>Services</h4>  </div>  <div class="ft-nav"><h5>www.codeageing.com</h5></div>   </div>
+<div class="ft-nav">
+    <div class="ft-nav"><h5>About</h4> </div>  <div class="ft-nav"><h5>codeageing@gamil.com</h5></div>   </div>
+<div class="ft-nav">
+    <div class="ft-nav"><h5>Projects</h4>  </div>   </div>
+<div class="ft-nav">
+    <div class="ft-nav"><h5>Blogs</h4></div> </div>
+<div class="ft-nav">
+    <div class="ft-nav"><h5>FAQs</h4></div>     </div>
+</div>
+<div class="ft-contact">
+<h2><span class="footer-link-span">Get the latest information</span></h2>
+<input type="text"> <div class="btn info-btn">
+    <button>Visit My Portfolio</button>
+    <div class="circle price-circle">&rarr;</div>
+</div>
+</div>
+
+</div>
+
+</div>
     <footer class="footer">
 <h4>Copyright &copy; 2025. <span class="about-span">vikashprocoder</span></h4>
 <h4>user term & condition | privacy policy</h4>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

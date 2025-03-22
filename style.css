@@ -13,6 +13,8 @@ font-family: sans-serif;
     display: flex;
     justify-content: center;
     font-family: sans-serif;
+  
+    
    
 }
 .nav-div{
@@ -186,6 +188,11 @@ padding: 0px 80px 0px 70px;
     background-color: #FAAD1B;
     padding: 10px;
     border-radius: 50%;
+    transition: 2s;
+}
+.services-icon img:hover{
+transform: rotate(.1turn);
+
 }
 .Services-div{
     display: flex;
@@ -199,11 +206,23 @@ padding: 0px 80px 0px 70px;
     padding: 40px;
     background-color: #F5F5F5;
     border-radius: 20px;
-    
+    transition: 3s;
     
 }
-.Services-div1:hover{
-    box-shadow: 0.5px 1px 10px orange;
+.serices-more{
+    padding-top: 15px;
+}
+.serices-more a:hover{
+    color: #F5F5F5;
+    padding: 10px;
+}
+.serices-more a{
+    text-decoration: none;
+    background-color: #344C36;
+    transition: 1s;
+    padding: 8px;
+    color:#FAAD1B;
+    border-radius: 10px;
 }
 
 /* about section */
@@ -292,6 +311,71 @@ padding: 0px 80px 0px 70px;
 }
 .skill-image h1{
     padding: 10px;
+}
+
+
+/* my projects style */
+.projec-img img{
+    height: 550px;
+    border-radius: 15px;
+}
+.portfolio-project-container{
+    display: flex;
+    justify-content: center;
+   max-height: max-content;
+   padding: 30px;
+   gap: 40px;
+   
+}
+.portfolio-section{
+    background-color: #F5F5F5;
+    justify-content: center;
+   max-height: max-content;
+   padding: 50px 0px 50px 0px;
+}
+.projects{
+    background-color: white;
+    text-align: center;
+   
+    padding: 10px;
+    border-radius: 15px;
+}
+.project-tag{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.project-tag p{
+    background-color: #FAAD1B;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: .9rem;
+}
+.project-heading{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.project-heading h3{
+    width: 300px;
+    text-align: start;
+    font-size: 1.5rem;
+}
+.projects-link{
+    border-radius: 50%;
+    background-color: #344C36;
+    height: 40px;
+    width: 40px;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.projects-link a{
+font-size: 1.4rem;
+text-decoration: none;
+color: #FAAD1B;
 }
 /* eduaction and works  */
 .edu-sec{
@@ -474,7 +558,113 @@ padding: 30px;
     font-weight: 400;
 }
 
+/* client testemonials */
+.reviews-slider{
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    overflow: hidden;
+    /* width: 100%; */
+}
+.reviews-slider i{
+  color: #FAAD1B;
+  background-color: #344C36;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+  border-radius: 10px;
+}
+.main_reviews_slide{
+    padding: 20px;
+    /* width: 100%; */
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+   
+   
+}
+.reviewscn img{
+    border-radius: 50%;
+    height: 100px;
+}
+.reviewscn{
+    border: 1px solid gray;
+    max-height:max-content ;
+   max-width: max-content; 
+    border-radius: 15px;
+    padding: 20px;
+  
+  
+}
+.reviewscn p{
+    max-width: 500px;
+}
 
+
+/* footer-link-style */
+.footer-link-sec{
+    min-height: 400px;
+    padding: 50px;
+  
+}
+.footer-link-span{
+    color: #FAAD1B;
+    padding-bottom: 10px;
+}
+.ft-link-border{
+    border-bottom: 2px solid #FAAD1B;
+}
+.ft-container{
+    display: flex;
+    justify-content: space-evenly;
+  padding: 30px;
+    
+}
+.footer-bio-p{
+    padding: 10px;
+}
+.ft-social-link{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.ft-social-link i{
+    font-size: 1.5rem;
+    background-color: #FAAD1B;
+    padding: 10px;
+    border-radius: 30px;
+}
+.ft-bio,.ft-link,.ft-contact{
+    width: 400px;
+    padding: 20px;
+}
+.ft-nav{
+    display: flex;
+    justify-content: space-between;
+
+   
+}
+.ft-nav h5{
+    font-weight: 400;
+    padding: 10px;
+cursor: pointer;
+}
+.ft-contact input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid #344C36;
+    outline: none;
+    background-color: #ffe3b0;
+}
+.ft-contact h2{
+    padding-bottom: 20px;
+}
+.info-btn{
+    margin-top: 10px;
+}
 /* footer-section  */
 .footer{
     display: flex;
@@ -484,4 +674,21 @@ padding: 30px;
     align-items: center;
     color: white;
     
+}
+
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 4s forwards;
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.main-header.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
