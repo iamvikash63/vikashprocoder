@@ -1,0 +1,46 @@
+/*nav*/
+@media (max-width:929px) {
+    .nav-a-container{
+        display: none;
+    }
+    
+}
+@media (max-width:375px) {
+    .about-me-image img,.header-image{
+        width: 100%;
+        height: auto;
+    }
+   .counter1,.about-heading{
+        
+        font-size: 1.5rem;
+    }
+    
+   
+}
+
+@media (max-width:425px) {
+    .Services-heading h1{
+        font-size: 1.5rem;
+    }
+    .Services-heading{
+      gap: 20px;
+      padding: 10px;
+    }
+
+}
+
+@media (max-width:850px) {
+    .main-header{
+        flex-wrap: wrap;
+    }
+    .Services-div{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:947px) {
+    .about-me-container{
+        flex-direction: column-reverse;
+    }
+    
+}

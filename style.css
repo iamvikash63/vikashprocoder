@@ -13,7 +13,7 @@ font-family: sans-serif;
     display: flex;
     justify-content: center;
     font-family: sans-serif;
-  
+  overflow: hidden;
     
    
 }
@@ -84,12 +84,14 @@ font-family: sans-serif;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 30px 0px 0px 0px;
+    padding: 30px 20px 0px 20px;
  max-height: max-content;
- width: 100%;
+gap: 20px;
+ overflow: hidden;
 }
 .header-image{
   height: 450px;
+  
 }
 .header-content{
     max-width: 400px;
@@ -126,6 +128,7 @@ font-family: sans-serif;
     height: 75px;
     width: 100%;
     background-color: #FAAD1B;
+    overflow: hidden;
 }
 
 /* services-box styles  */
@@ -166,6 +169,7 @@ font-weight: 600;
     max-height: max-content;
     width: 100%;
 padding: 50px 0px 50px 0px;
+overflow: hidden;
 }
 .Services-main-hd{
     padding: 0px 80px 0px 80px;
@@ -198,11 +202,13 @@ transform: rotate(.1turn);
     display: flex;
     padding: 30px;
     justify-content: space-evenly;
+    gap: 20px;
+    overflow: hidden;
+   
     
 }
-.Services-div1{
+.Services-div1{ 
     width: 300px;
-    
     padding: 40px;
     background-color: #F5F5F5;
     border-radius: 20px;
@@ -228,11 +234,12 @@ transform: rotate(.1turn);
 /* about section */
 .about-me-container{
    min-height:  500px;
-    width: 100%;
+   padding: 30px;
     background-color: #344C36;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
    gap: 30px;
 }
 .about-me-image img{
@@ -287,6 +294,8 @@ transform: rotate(.1turn);
     width: 100%;
     padding: 30px 0px 30px 0px;
     text-align: center;
+    overflow: hidden;
+    
 }
 .skills-cotainer h3{
     padding: 20px;
@@ -299,11 +308,16 @@ transform: rotate(.1turn);
     justify-content: space-evenly;
 }
 .skill-image img{
-    height: 30px;
+    height: 50px;
     border-radius: 50%;
-    padding: 10px;
+    padding: 8px;
     background-color: white;
+    transition: 3s;
 }
+.skill-image img:hover{
+    transform: rotate(.1turn);
+    cursor: pointer;
+    }
 .skill-image{
     border-radius: 45%;
     background-color: #F5F5F5;
@@ -325,6 +339,8 @@ transform: rotate(.1turn);
    max-height: max-content;
    padding: 30px;
    gap: 40px;
+   overflow: hidden;
+   flex-wrap: wrap;
    
 }
 .portfolio-section{
@@ -389,6 +405,7 @@ color: #FAAD1B;
     max-height: max-content;
     justify-content: space-evenly;
     padding: 40px;
+    overflow: hidden;
 }
 .Education-div{
     background-color: #F5F5F5;
@@ -440,6 +457,7 @@ border-radius: 50%;
    background-color: #344C36;
    border-radius: 15px;
    color: white;
+   overflow: hidden;
 }
 
 .prices-container{
@@ -532,6 +550,7 @@ padding: 30px;
    padding: 30px;
     margin: 30px;
     justify-content: space-evenly;
+    overflow: hidden;
 }
 .contact-content,.contact-form{
     width: 500px;
@@ -601,12 +620,21 @@ padding: 30px;
 .reviewscn p{
     max-width: 500px;
 }
+.test-name{
+    padding: 10px;
+    background-color: #344C36;
+    display: inline-block;
+    border-radius: 10px;
+    color: #FAAD1B;
+}
 
 
 /* footer-link-style */
 .footer-link-sec{
     min-height: 400px;
     padding: 50px;
+    overflow: hidden;
+
   
 }
 .footer-link-span{
@@ -620,6 +648,7 @@ padding: 30px;
     display: flex;
     justify-content: space-evenly;
   padding: 30px;
+  overflow: hidden;
     
 }
 .footer-bio-p{
