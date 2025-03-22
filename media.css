@@ -25,7 +25,24 @@
     .Services-heading{
       gap: 20px;
       padding: 10px;
+      align-items: center;
     }
+    .nav-div{
+        width: 95%;
+    }
+    .skills-cotainer h1,.skill-image h1{
+        font-size: 1.5rem;
+    }
+    .projec-img img{
+        width: 100%;
+        height: auto;
+    }
+
+}
+@media (min-width:425px) {
+.second-nav{
+    display: none;
+}
 
 }
 
@@ -41,6 +58,10 @@
 @media (max-width:947px) {
     .about-me-container{
         flex-direction: column-reverse;
+    }
+    .skill-content{
+        flex-wrap: wrap;
+        gap: 10px;
     }
     
 }

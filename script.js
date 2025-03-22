@@ -1,4 +1,4 @@
-document.querySelectorAll('.nav-a-container a').forEach(anchor => {
+document.querySelectorAll('.nav-a-container a', ' .second-nav a').forEach(anchor => {
     anchor.addEventListener('click', function(event) {
         event.preventDefault(); // Prevent default anchor behavior
   
