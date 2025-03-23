@@ -1,8 +1,8 @@
 *{
     margin:0%;
     padding: 0%;
-font-family:Tahoma, sans-serif;
-
+font-family: sans-serif;
+scroll-behavior: smooth;
 }
 
 /* nav-style */
@@ -215,17 +215,37 @@ transform: rotate(.1turn);
     justify-content: space-evenly;
     gap: 20px;
     overflow: hidden;
-   
+    
     
 }
+
 .Services-div1{ 
     width: 300px;
     padding: 40px;
     background-color: #F5F5F5;
     border-radius: 20px;
-    transition: 3s;
+   
     
 }
+.flip-down{
+  
+    transform-origin: top;
+    /* transform: rotateX(90deg); */
+    opacity: 0;
+    transition: transform 2s cubic-bezier(0.25, 1, 0.5, 1), 
+    opacity 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.flip-down:nth-child(1) { transform: rotateX(90deg); }  /* Flip Down */
+.flip-down:nth-child(2) { transform: rotateX(-90deg); } /* Flip Up */
+.flip-down:nth-child(3) { transform: rotateY(90deg); }  /* Flip Left */
+.flip-down:nth-child(4) { transform: rotateY(-90deg); } /* Flip Right */
+
+
+.flip-down.show {
+    transform: rotateX(0deg) rotateY(0deg);
+    opacity: 1;
+}
+
 .serices-more{
     padding-top: 15px;
 }
@@ -364,8 +384,8 @@ transform: rotate(.1turn);
 .projects{
     background-color: white;
     text-align: center;
-   
-    padding: 10px;
+
+    padding: 20px;
     border-radius: 15px;
 }
 .project-tag{
@@ -418,6 +438,8 @@ color: #FAAD1B;
     justify-content: space-evenly;
     padding: 40px;
     overflow: hidden;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 .Education-div{
     background-color: #F5F5F5;

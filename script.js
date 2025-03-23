@@ -1,4 +1,4 @@
-document.querySelectorAll('.nav-a-container a', ' .second-nav a').forEach(anchor => {
+document.querySelectorAll('.nav-a-container a ').forEach(anchor => {
     anchor.addEventListener('click', function(event) {
         event.preventDefault(); // Prevent default anchor behavior
   
@@ -14,6 +14,21 @@ document.querySelectorAll('.nav-a-container a', ' .second-nav a').forEach(anchor
     });
   });
 
+  document.querySelectorAll('.second-nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent default anchor behavior
+  
+        const targetId = this.getAttribute('href').substring(1);
+        const targetSection = document.getElementById(targetId);
+  
+        if (targetSection) {
+            window.scrollTo({
+                top: targetSection.offsetTop - 50, // Adjust offset for better alignment
+                behavior: 'smooth'
+            });
+        }
+    });
+  });
 
   const testimonials = [
     {
@@ -56,3 +71,24 @@ setTimeout(()=>{
 },4000)
 }
 updateTest();
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const sections = document.querySelectorAll(".flip-down");
+
+  const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+          if (entry.isIntersecting) {
+              entry.target.classList.add("show");
+          } else {
+              entry.target.classList.remove("show"); // Remove class when out of view
+          }
+      });
+  }, { threshold: 0.2 }); // Trigger when 20% of div is visible
+
+  sections.forEach(section => {
+      observer.observe(section);
+  });
+});
+
