@@ -100,7 +100,7 @@ scroll-behavior: smooth;
 .second-nav a{
     color: #344C36;
     text-decoration: none;
-   
+   font-size: large;
 }
 .second-nav a:hover{
     color: white;
