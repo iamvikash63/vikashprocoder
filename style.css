@@ -685,11 +685,11 @@ padding: 30px;
     max-width: 500px;
 }
 .test-name{
-    padding: 10px;
-    background-color: #344C36;
+    padding: 8px 10px 8px 10px;
+    background-color: #FAAD1B;
     display: inline-block;
     border-radius: 10px;
-    color: #FAAD1B;
+    color:#344C36;
 }
 
 

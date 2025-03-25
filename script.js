@@ -92,3 +92,13 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+
+const formData=document.querySelectorAll('.form-input');
+const submitbtn=document.querySelector('.submit-btn');
+formData.forEach((Form_value)=>{
+submitbtn.addEventListener('click',()=>{
+ 
+  console.log(Form_value.value);
+  
+})
+});

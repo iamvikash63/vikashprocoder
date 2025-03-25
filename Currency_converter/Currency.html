@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Currency converter App</title>
+</head>
+
+<body>
+    <div class="cr-converter-container">
+        <h1>Currency Converter</h1>
+        <form action="">
+            <div class="amount-div">
+                <h3>Enter the price</h3>
+                <input class="js-input" type="number">
+            </div>
+            <div class="dropdown-container">
+                <div class="from">
+                    <p>From</p>
+                    <div class="slection">
+                        <img class="flag-img" src="https://flagsapi.com/US/flat/64.png">
+
+                        <select class="country-sl js-select-from" name="From" id="">
+                          
+                        </select>
+                    </div>
+                </div>
+                <i class="fa-solid fa-repeat switch-icon"></i>
+                <div class="TO">
+                    <p>To</p>
+                    <div class="slection">
+                        <img class="flag-img" src="https://flagsapi.com/IN/flat/64.png">
+
+                        <select class="country-sl js-select-to" name="To" id="">
+                           
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+            <div class="message">
+                1 USD = 80 INR
+            </div>
+            <button class="js-button">Get Exchange Rate </button>
+        </form>
+    </div>
+    <script src="app.js" type="module"></script>
+    <script src="codes.js"></script>
+    
+</body>
+
+</html>
