@@ -1,8 +1,12 @@
 *{
     margin:0%;
     padding: 0%;
-font-family: sans-serif;
+font-family: Arial, Helvetica, sans-serif;
 scroll-behavior: smooth;
+
+}
+body{
+    background-color: white;
 }
 
 /* nav-style */
@@ -31,6 +35,7 @@ scroll-behavior: smooth;
     width: 500px;
     display: flex;
     justify-content: space-evenly;
+
 }
 .nav-contact-div{
     width: 150px;
@@ -48,6 +53,7 @@ scroll-behavior: smooth;
 .nav-a{
     color: white;
     text-decoration: none;
+    transition: 1s;
 
 }
 .nav-a:hover{
@@ -84,13 +90,14 @@ scroll-behavior: smooth;
     align-items: center;
     background-color: #FAAD1B;
     height: 50px;
-   border-radius: 10px;
+  
     font-size: .7rem;
-    margin: 5px;
+
  z-index: 1;
  position: sticky;
  font-weight: 500;
  top: 0px;
+
    .second-nav-active{
     color: white;
     border-bottom: 1px solid black;
@@ -337,6 +344,10 @@ transform: rotate(.1turn);
 .ab-cr{
     color: #344C36;
 }
+.resume-a{
+    text-decoration: none;
+    color: white;
+}
 
 /* skills style */
 .skills-cotainer{
@@ -458,7 +469,7 @@ color: #FAAD1B;
     padding: 40px;
     overflow: hidden;
     gap: 20px;
-    flex-wrap: wrap;
+    
 }
 .Education-div{
     background-color: #F5F5F5;
@@ -512,7 +523,8 @@ border-radius: 50%;
    background-color: #344C36;
    border-radius: 20px 20px 0px 0px;
    color: white;
-   overflow: hidden;
+  
+
 }
 
 .prices-container{
@@ -522,7 +534,7 @@ padding: 30px;
     justify-content: space-evenly;
     gap: 20px;
     overflow: auto;
-    width: 100%;
+   
 }
 
 .price1{
@@ -548,8 +560,14 @@ padding: 30px;
 .price-feature-div{
     padding: 20px;
     border-radius: 15px;
-    width: 100%;
 
+
+}
+.price-hd-img-div{
+    display: flex;
+    align-items: center;
+   
+    flex-direction: row;
 }
 .price-top-div-top-cont{
     display: flex;
@@ -576,9 +594,13 @@ padding: 30px;
    
    }
 }
+.price-hd-img-div h3{
+    font-size: large;
+    font-weight: 400;
+}
 .price-checkmarks{
     height: 20px;
-    padding: 5px 5px 0px 0px;
+    padding: 5px 5px 5px 5px;
 }
 
 /* contact section style */

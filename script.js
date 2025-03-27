@@ -93,12 +93,29 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-const formData=document.querySelectorAll('.form-input');
-const submitbtn=document.querySelector('.submit-btn');
-formData.forEach((Form_value)=>{
-submitbtn.addEventListener('click',()=>{
- 
-  console.log(Form_value.value);
+
+
+const Input_Val =document.querySelectorAll('.js-form-input');
+const sbmit=document.querySelector('.submit-btn');
+const req =document.querySelector('.js-req-fl');
+Input_Val.forEach((Form_val)=>{
+sbmit.addEventListener('click',()=>{
+ if(!Form_val.value){
   
+  sbmit.innerText="All Fields Required";
+  sbmit.style.color="red";
+  
+  
+ } else{
+ 
+  console.log(Form_val.value);
+  Form_val.value="";
+  sbmit.innerText="Submitted Successfuly";
+  sbmit.style.color="white";
+ }
+
+
+
+
 })
 });

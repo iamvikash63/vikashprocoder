@@ -88,6 +88,11 @@ font-size: 0.5rem;
     .footer h4{
         padding: 10px;
     }
+    .price-hd-img-div h3{
+        font-size: medium;
+        font-weight: 300;
+        width: 100%;
+    }
 
 }
 @media (min-width:425px) {
@@ -115,4 +120,10 @@ font-size: 0.5rem;
         gap: 10px;
     }
     
+}
+
+@media (max-width:612px) {
+    .edu-container{
+        flex-wrap: wrap;
+    }
 }
