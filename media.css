@@ -11,7 +11,13 @@
         
         font-size: 1.5rem;
     }
+    .ft-bio,.ft-link,.ft-contact{
+        width: 200px;
+    }
     
+    .ft-bio,.ft-link,.ft-contact{
+        width: 400px;
+    }
    
 }
 @media (max-width:500px) {

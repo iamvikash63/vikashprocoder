@@ -1,0 +1,39 @@
+.services-page-top-hd{
+    
+    height: 150px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.services-header-img{
+    height: 300px;
+    width: 500px;
+
+}
+.services-header-img img{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.heading-web-srvs-p{
+    font-size: larger;
+    color: #FAAD1B;
+}
+
+.heading-web-srvs{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact-container{
+    background-color: #344C36;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+.srvs-ul{
+    padding: 20px;
+}
