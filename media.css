@@ -5,11 +5,8 @@
     }
     
 }
-@media (max-width:375px) {
-    .about-me-image img,.header-image{
-        width: 100%;
-        height: auto;
-    }
+@media (max-width:380px) {
+  
    .counter1,.about-heading{
         
         font-size: 1.5rem;
@@ -27,7 +24,11 @@
 
 @media (max-width:425px) {
     .Services-heading h1{
-        font-size: 1rem;
+        font-size: 1.5rem;
+    }
+    .about-me-image img,.header-image{
+        width: 100%;
+        height: auto;
     }
     .Services-heading{
       gap: 20px;
@@ -39,9 +40,11 @@
     }
     .skills-cotainer h1,.skill-image h1{
         font-size: 1.5rem;
+        font-weight: 500;
     }
     .project-heading h3{
         font-size: 1rem;
+        font-weight: 500;
     }
     .project-heading{
         width: 250px;
