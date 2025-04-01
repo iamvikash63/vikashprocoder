@@ -179,9 +179,32 @@ gap: 20px;
 }
 .hire-btn-main{
     background-color: white;
-    color: #344C36;
-    font-size: 1.2rem;
-    border: 1px solid #344C36;
+    color: #FAAD1B;
+   
+    
+}
+/* .hire-btn-main::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 20px solid rgb(249, 247, 247);
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    
+} */
+
+
+@keyframes blink {
+    0% { background-color: rgb(255, 225, 33); }
+    50% { background-color: rgb(252, 252, 252); }
+    100% { background-color: #344C36; }
+}
+.hire-btn-main i{
+    font-size: 2.5rem;
+    animation: blink 2s infinite alternate;
+    padding: 5px;
+    border-radius: 50%;
+    
 }
 .header-banner{
     background-image: url(header\ banner.png);
@@ -249,11 +272,21 @@ padding: 0px 80px 0px 70px;
    
 }
 .services-icon img{
-    height: 50px;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
     background-color: #FAAD1B;
     padding: 10px;
-    border-radius: 50%;
+   
     transition: 2s;
+    
+}
+.services-icon{
+    height: 50px;
+display: flex;
+align-items: center;
+
+    padding: 15px;
 }
 .services-icon img:hover{
 transform: rotate(.1turn);
