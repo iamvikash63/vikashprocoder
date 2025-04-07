@@ -298,7 +298,7 @@ transform: rotate(.1turn);
     justify-content: space-evenly;
     gap: 20px;
     overflow: hidden;
-    
+  
     
 }
 .services-page-a{
@@ -306,15 +306,13 @@ transform: rotate(.1turn);
 }
 .Services-div1{ 
     width: 300px;
-    padding: 20px;
+ padding: 0px 10px 20px 10px;
     background-color: #F5F5F5;
     border-radius: 20px;
    transition: 1s;
     
 }
-.Services-div1:hover{
-    transform: skew(1deg, 5deg);
-}
+
 .flip-down{
   
     transform-origin: top;
@@ -779,6 +777,36 @@ padding: 30px;
     color:#344C36;
 }
 
+/*blogs section */
+
+.Blogs-img{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Blogs-img img{
+   max-width: 100%;
+   max-height: 100%;
+
+}
+.blog-dv{
+    padding: 0%, 0% 20px 0%;
+}
+.tag-blog{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+}
+.tag-blog p{
+    background-color: #FAAD1B;
+    padding: 8px;
+    border-radius: 10px;
+    color: #343434;
+}
+.blog-more-btn{
+    padding: 0px 10px 0px 10px;
+}
 
 /* footer-link-style */
 .footer-link-sec{
@@ -817,7 +845,8 @@ a{
     justify-content: space-between;
     padding: 10px;
     gap: 5px;
-   
+   width: 100%;
+   overflow: hidden;
 }
 .ft-social-link i{
     font-size: 1.5rem;
@@ -825,7 +854,7 @@ a{
     padding: 10px;
     border-radius: 30px;
 }
-.ft-bio,.ft-link,.ft-contact{
+.ft-bio,.ft-contact{
   width: 400px;
     padding: 10px;
     
@@ -842,7 +871,7 @@ text-align: center;
     padding: 10px;
 cursor: pointer;
 text-align: center;
-width: 100%;
+
 }
 .ft-contact input{
 width: 70%;

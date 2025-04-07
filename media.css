@@ -4,6 +4,7 @@
         display: none;
     }
     
+    
 }
 @media (max-width:380px) {
   
@@ -12,12 +13,15 @@
         font-size: 1.5rem;
     }
     .ft-bio,.ft-link,.ft-contact{
-        width: 200px;
+        width: 300px;
+    }
+    .ft-social-link i{
+        font-size: 1rem;
     }
     
-    .ft-bio,.ft-link,.ft-contact{
+    /* .ft-bio,.ft-link,.ft-contact{
         width: 400px;
-    }
+    } */
    
 }
 @media (max-width:500px) {
