@@ -18,7 +18,8 @@
     .ft-social-link i{
         font-size: 1rem;
     }
-    
+ 
+   
     /* .ft-bio,.ft-link,.ft-contact{
         width: 400px;
     } */
@@ -136,6 +137,20 @@ font-size: 0.5rem;
         flex-wrap: wrap;
     }
     
+}
+
+@media (max-width:735px) {
+  .blog-container{
+        min-width: 100%;
+    }
+    .blogs-section-container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    /* .blogs-table-container{
+        width: 80%;
+       
+        } */
 }
 
 @media (max-width:612px) {

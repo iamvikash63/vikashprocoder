@@ -20,9 +20,9 @@ const blogPosts = [
   let blogsHTMl='';
   blogPosts.forEach((Blog)=>{
 blogsHTMl+=`
-            <div class="Services-div1" >
+            <div class="Blogs-page-div" >
 
-            <div class="Blogs-img"><img src="Blogs Img/${Blog.image}" alt="">
+            <div class="Blogs-img-page"><img src="Blogs Img/${Blog.image}" alt="">
             </div>
             <div class="tag-blog"><p>App Dev</p> <p>${Blog.Date}</p></div>
             <h3>${Blog.title}</h3>
