@@ -310,7 +310,7 @@ transform: rotate(.1turn);
     background-color: #F5F5F5;
     border-radius: 20px;
    transition: 1s;
-    
+    padding: 30px;
 }
 
 .flip-down{
@@ -527,7 +527,7 @@ color: #FAAD1B;
     max-height: max-content;
     justify-content: space-evenly;
     padding: 40px;
-    overflow: hidden;
+    overflow-x: auto;
     gap: 20px;
     
 }
@@ -541,6 +541,7 @@ color: #FAAD1B;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+  
 }
 .edu1{
    text-align: start;
@@ -550,11 +551,7 @@ color: #FAAD1B;
    margin-top: 10px;
   
 }
-.Education-div:hover{
-    transform: rotate3d(1, 2, 3, -10deg);
-  
-    
-}
+
 .edu1 p{
     padding: 5px;
     font-size: 1.4rem;
@@ -587,7 +584,7 @@ border-radius: 50%;
    
    padding: 50px 0px 50px 0px;
    background-color: #344C36;
-   border-radius: 20px 20px 0px 0px;
+   
    color: white;
   
 
@@ -595,26 +592,26 @@ border-radius: 50%;
 
 .prices-container{
  max-height: max-content;
+
 padding: 30px;
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
-    overflow: auto;
+    overflow-x: auto;
    
 }
 
 .price1{
-    width: 300px;
-    min-height: 300px;
-    padding: 30px;
+    width: 100%;
+    height:auto;
+    padding: 10px;
     background-color: #445A46;
     border-radius: 15px;
-    transition: 1s;
+    flex: 0 0 300px;
+
+
 }
-.price1:hover{
-    background-color: #343434;
-    transform: rotate(0.01turn);
-}
+
 .price-top-div{
     background-color: #344C36;
     padding: 20px;
@@ -804,6 +801,7 @@ padding: 30px;
     padding: 8px;
     border-radius: 10px;
     color: #343434;
+    font-size: medium;
 }
 .blog-more-btn{
     padding: 0px 10px 0px 10px;
@@ -819,6 +817,7 @@ padding: 30px;
 }
 a{
     text-decoration: none;
+    color: #343434;
 }
 .footer-link-span{
     color: #FAAD1B;
@@ -843,7 +842,7 @@ a{
 }
 .ft-social-link{
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
     padding: 10px;
     gap: 5px;
    width: 100%;

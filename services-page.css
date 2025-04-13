@@ -1,60 +1,77 @@
 .services-page-top-hd{
-    
-    height: 150px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.services-header-img{
-    height: 300px;
-    width: 500px;
-
-}
-.services-header-img img{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-.heading-web-srvs-p{
-    font-size: larger;
-    color: #FAAD1B;
+    text-align: center;
+    padding: 30px;
 }
 
-.heading-web-srvs{
-    height: 200px;
+.services-section {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .section-subtitle {
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  /* Scrollable row */
+  .services-scroll {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.contact-container{
-    background-color: #344C36;
-    color: white;
-    border-radius: 10px 10px 0px 0px;
-}
-.srvs-ul{
-    padding:  10px;
-}
-
- /* .Services-div{
-    display: flex;
+    gap: 20px;
     overflow-x: auto;
-    gap: 20px; 
-    scroll-snap-type: x mandatory;
-    padding: 10px;
-}  */
-
-
-
-
-
-/* .prev-btn-sr{
-    font-size: 1.5rem;
+    padding-bottom: 10px;
+    scroll-behavior: smooth;
+  }
+  
+  .service-card {
+    flex: 0 0 280px;
+    background-color: #F5F5F5;
+    padding: 25px 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+    text-align: left;
+    transition: 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+  }
+  
+  .service-card .icon {
+    font-size: 36px;
+    margin-bottom: 12px;
+  }
+  
+  .service-card h3 {
+    font-size: 1.2rem;
+    color: #222;
+    margin-bottom: 8px;
+  }
+  
+  .service-card p {
+    font-size: 0.95rem;
     color: #344C36;
-    background-color: #FAAD1B;
-    padding: 10px 20px 10px 20px;
-    cursor: pointer;
-    border-radius: 10px;
-} */
+  }
+  
+  /* Optional: Hide scrollbar for clean look */
+  .services-scroll::-webkit-scrollbar {
+    height: 8px;
+  }
+  .services-scroll::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+  }
+  

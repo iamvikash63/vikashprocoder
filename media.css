@@ -93,7 +93,7 @@ font-size: 0.5rem;
         padding: 10px;
     }
     .reviews-slider i{
-        padding: 5px;
+        padding: 10px;
         font-size: medium;
     }
     .footer-link-sec{
@@ -107,7 +107,23 @@ font-size: 0.5rem;
         font-weight: 300;
         width: 100%;
     }
-
+    .prices-container{
+        overflow-x: scroll;
+    }
+    .price1{
+        width: 100%;
+        padding: 10px;
+    }
+    .price-feature-div{
+        padding: 0%;
+    }
+    .Education-div{
+        flex: 0 0 300px;
+    }
+.btn{
+    width: 170px;
+    justify-content: space-evenly;
+}
 }
 @media (min-width:425px) {
 .second-nav{
@@ -153,8 +169,3 @@ font-size: 0.5rem;
         } */
 }
 
-@media (max-width:612px) {
-    .edu-container{
-        flex-wrap: wrap;
-    }
-}
