@@ -311,6 +311,8 @@ transform: rotate(.1turn);
     border-radius: 20px;
    transition: 1s;
     padding: 30px;
+    border:1px solid #344C36;
+    box-shadow: 0 8px 20px #FAAD1B;
 }
 
 .flip-down{
@@ -541,7 +543,8 @@ color: #FAAD1B;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-  
+    border:1px solid #344C36;
+    box-shadow: 0 8px 20px #FAAD1B;
 }
 .edu1{
    text-align: start;
@@ -549,7 +552,8 @@ color: #FAAD1B;
    width: 80%;
    padding:  10px;
    margin-top: 10px;
-  
+   border:1px solid #344C36;
+   box-shadow: 0 0px 5px #FAAD1B;
 }
 
 .edu1 p{
@@ -789,7 +793,9 @@ padding: 30px;
 
 }
 .blog-dv{
-    padding: 0%, 0% 20px 0%;
+    padding: 0px 10px 20px 10px;
+    border:1px solid #344C36;
+      box-shadow: 0 8px 20px #FAAD1B;
 }
 .tag-blog{
     display: flex;

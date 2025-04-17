@@ -40,7 +40,7 @@
     background-color: #F5F5F5;
     padding: 25px 20px;
     border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+    /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06); */
     text-align: left;
     transition: 0.3s ease;
   }

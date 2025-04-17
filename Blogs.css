@@ -11,6 +11,7 @@ max-width:  50%;
 display: flex;
 flex-direction: column;
 gap: 20px;
+
 }
 
 .heading-web-srvs{
@@ -24,8 +25,10 @@ gap: 20px;
 
 .Blogs-page-div{
     background-color: #F5F5F5;
-    padding: 10px;
+    padding: 10px 10px 20px 10px;
     border-radius: 10px;
+    border:1px solid #344C36;
+    box-shadow: 0 0px 4px #FAAD1B;
 }
 
 .Blogs-img-page img{
