@@ -33,6 +33,7 @@
     overflow-x: auto;
     padding-bottom: 10px;
     scroll-behavior: smooth;
+   
   }
   
   .service-card {
@@ -43,6 +44,8 @@
     /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06); */
     text-align: left;
     transition: 0.3s ease;
+    box-shadow: 0 0px 10px #FAAD1B;
+    background-color: #344C36;
   }
   
   .service-card:hover {
@@ -53,17 +56,27 @@
   .service-card .icon {
     font-size: 36px;
     margin-bottom: 12px;
+    background-color: #FAAD1B;
+    display: flex;
+    width: 50px;
+   padding: 10px;
+    border-radius: 50%;
+    height: 50px;
+  }
+  .icon img{
+    height: 50px;
   }
   
   .service-card h3 {
     font-size: 1.2rem;
-    color: #222;
-    margin-bottom: 8px;
+    color: #FAAD1B;
+    margin: 10px 0px 10px 0px;
   }
   
   .service-card p {
-    font-size: 0.95rem;
-    color: #344C36;
+    font-size:1rem;
+    color: #ffffff;
+    font-weight: 500;
   }
   
   /* Optional: Hide scrollbar for clean look */
