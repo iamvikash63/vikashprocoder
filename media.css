@@ -15,9 +15,7 @@
     .ft-bio,.ft-link,.ft-contact{
         width: 300px;
     }
-    .ft-social-link i{
-        font-size: 1rem;
-    }
+    
  
    
     /* .ft-bio,.ft-link,.ft-contact{
@@ -160,8 +158,11 @@ font-size: 0.5rem;
         min-width: 100%;
     }
     .blogs-section-container{
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
+    }
+    .thumbnail-img{
+        max-height: max-content;
     }
     /* .blogs-table-container{
         width: 80%;
