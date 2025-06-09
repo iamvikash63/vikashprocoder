@@ -110,22 +110,24 @@ fadeElements.forEach((el) => observer.observe(el));
 
 
 const Input_Val =document.querySelectorAll('.js-form-input');
-const sbmit=document.querySelector('.submit-btn');
+const submit=document.querySelector('.submit-btn');
 const req =document.querySelector('.js-req-fl');
 Input_Val.forEach((Form_val)=>{
-sbmit.addEventListener('click',()=>{
+submit.addEventListener('click',()=>{
+  // Check if any input field is empty
+ 
  if(!Form_val.value){
   
-  sbmit.innerText="All Fields Required";
-  sbmit.style.color="red";
+  submit.value="All Fields Required";
+  submit.style.color="red";
   
   
  } else{
  
   console.log(Form_val.value);
   Form_val.value="";
-  sbmit.innerText="Submitted Successfuly";
-  sbmit.style.color="white";
+  submit.value="Submitted Successfuly";
+  submit.style.color="white";
  }
 
 

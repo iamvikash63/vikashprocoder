@@ -537,7 +537,7 @@ color: #FAAD1B;
     background-color: #F5F5F5;
     /* height: 550px; */
     padding: 20px;
-    width: 500px;
+    width: 400px;
     border-radius: 15px;
     align-items: center;
     display: flex;
@@ -676,7 +676,14 @@ padding: 30px;
     margin-top: 10px;
 }
 .submit-btn{
-    width: 120px;
+   padding: 8px;
+   font-size: large;
+   border-radius: 10px;
+   background-color: #344C36;
+   color: white;
+   cursor: pointer;
+  
+   margin-top: 10px;
 }
 .contact-section{
     display: flex;
