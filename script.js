@@ -1,3 +1,38 @@
+import{blogPosts} from './Blogs.js';
+let blogsHomeHTMl='';
+blogPosts.forEach((Blog)=>{
+blogsHomeHTMl+=`
+            <div class="Services-div1 blog-dv" >
+
+                <div class="Blogs-img"><img src="Blogs Img/${Blog.image}" alt="">
+                </div>
+                <div class="tag-blog"><p>App Dev</p> <p>${Blog.Date}</p></div>
+                <h3>${Blog.title}</h3>
+                <p class="serices-more"><a href="${Blog.link}">Read More &rarr;</a></p>
+            </div>
+`;
+});
+const homeBlogContainer = document.querySelector('.home-blog-sec-js');
+if (homeBlogContainer) {
+  let blogsHomeHTML = '';
+  blogPosts.slice(0, 3).forEach((Blog) => {
+    blogsHomeHTML += `
+      <div class="Services-div1 blog-dv">
+        <div class="Blogs-img"><img src="Blogs Img/${Blog.image}" alt="">
+        </div>
+        <div class="tag-blog"><p>App Dev</p> <p>${Blog.Date}</p></div>
+        <h3>${Blog.title}</h3>
+        <p class="serices-more"><a href="${Blog.link}">Read More &rarr;</a></p>
+      </div>
+    `;
+  });
+  homeBlogContainer.innerHTML = blogsHomeHTML;
+}
+
+
+
+
+
 document.querySelectorAll('.nav-a-container a ').forEach(anchor => {
     anchor.addEventListener('click', function(event) {
         event.preventDefault(); // Prevent default anchor behavior
@@ -135,3 +170,8 @@ submit.addEventListener('click',()=>{
 
 })
 });
+
+
+
+//home page latest blog section
+

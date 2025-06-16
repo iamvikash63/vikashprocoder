@@ -6,7 +6,7 @@
 .services-section {
     background-color: #ffffff;
     padding: 60px 20px;
-    font-family: 'Segoe UI', sans-serif;
+   
     text-align: center;
   }
   
@@ -22,7 +22,7 @@
   }
   
   .section-subtitle {
-    color: #666;
+    color: #344C36;
     margin-bottom: 30px;
   }
   
@@ -31,8 +31,9 @@
     display: flex;
     gap: 20px;
     overflow-x: auto;
-    padding-bottom: 10px;
+    padding: 30px;
     scroll-behavior: smooth;
+
    
   }
   
